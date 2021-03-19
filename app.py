@@ -30,10 +30,8 @@ def index():
                                 level=logging.INFO)
             logging.getLogger('urbanGUI')
             # mongodb: // localhost: 27017 /
-
-            dbConn = pymongo.MongoClient(
-                """mongodb+srv://srinivasaravi:4Alq22JSGlSJZD2f@srinivasaahlad.njxzl.mongodb.net/crawlerDB
-                ?retryWrites=true&w=majority""")  # opening a connection to Mongo
+            # pymongo.MongoClient("mongodb+srv://srinivasaravi:4Alq22JSGlSJZD2f@srinivasaahlad.njxzl.mongodb.net/crawlerDB?retryWrites=true&w=majority")
+            dbConn = pymongo.MongoClient("mongodb+srv://srinivasaravi:4Alq22JSGlSJZD2f@srinivasaahlad.njxzl.mongodb.net/crawlerDB?retryWrites=true&w=majority")  # opening a connection to Mongo
             logging.info('Database Connection Success')
             db = dbConn['crawlerDB']  # connecting to the database called crawlerDB
             logging.info('connecting to the database called crawlerDB : Success')
