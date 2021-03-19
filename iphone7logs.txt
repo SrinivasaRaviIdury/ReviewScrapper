@@ -1,0 +1,20 @@
+19:46:13,74 root INFO Database Connection Success
+19:46:13,74 root INFO connecting to the database called crawlerDB : Success
+19:46:13,616 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59863/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+19:46:13,617 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:59863
+19:46:15,9 urllib3.connectionpool DEBUG http://127.0.0.1:59863 "POST /session HTTP/1.1" 200 751
+19:46:15,11 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+19:46:15,12 root INFO Web Driver started
+19:46:17,13 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59863/session/9ad9f3f64e5713baae774c3a59c8701b/url {"url": "https://www.flipkart.com/search?q=iphone7"}
+19:46:29,292 urllib3.connectionpool DEBUG http://127.0.0.1:59863 "POST /session/9ad9f3f64e5713baae774c3a59c8701b/url HTTP/1.1" 200 14
+19:46:29,293 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+19:46:29,293 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59863/session/9ad9f3f64e5713baae774c3a59c8701b/element {"using": "css selector", "value": "div._1AtVbE.col-12-12 a._2rpwqI"}
+19:46:29,317 urllib3.connectionpool DEBUG http://127.0.0.1:59863 "POST /session/9ad9f3f64e5713baae774c3a59c8701b/element HTTP/1.1" 404 1151
+19:46:29,317 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+19:46:29,317 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59863/session/9ad9f3f64e5713baae774c3a59c8701b/element {"using": "css selector", "value": "div._1AtVbE.col-12-12 a._1fQZEK"}
+19:46:29,340 urllib3.connectionpool DEBUG http://127.0.0.1:59863 "POST /session/9ad9f3f64e5713baae774c3a59c8701b/element HTTP/1.1" 404 1151
+19:46:29,340 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+19:46:29,342 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 19:46:29] "[37mPOST / HTTP/1.1[0m" 200 -
+⬢ secure-temple-39897
+https://secure-temple-39897.herokuapp.com/ | https://git.heroku.com/secure-temple-39897.git
+
